@@ -16,6 +16,9 @@ const Contact = () => {
           Tell me about your project and let’s create something together.
           Thanks for the visit!
           </p>
+          
+
+
         </div>
         <div
           className='flex flex-col lg:gap-x-8 lg:flex-row'
@@ -40,20 +43,29 @@ const Contact = () => {
             })}
           </div>
           <form
+            action="https://getform.io/f/cb5eb6c1-aa94-4542-b5c1-c76401b2092f" method="POST"
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' placeholder='Your name' name="name" />
+              <input className='input' type='email' placeholder='Your email' name="email" />
             </div>
-            <input className='input' type='text' placeholder='Subject' />
+            <input className='input' type='text' placeholder='Subject' name="subject" />
             <textarea
               className='textarea'
               placeholder='Your message'
+              name="textarea"
             ></textarea>
+            <div>
+              <div className="mb-8" class="g-recaptcha" data-sitekey="6LdinA8lAAAAAFDru4yJj1313N2M28Xjm4SacliP"></div>
+              
+            </div>
             <button className='btn btn-lg bg-secondary hover:text-black'>
               Send message
             </button>
+           
+            
+            
           </form>
         </div>
       </div>
