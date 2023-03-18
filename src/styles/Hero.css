@@ -1,0 +1,21 @@
+/* .circle-pic{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(../assets/img/banner-woman2.webp);
+    background-size: cover;
+    border-radius: 50%;
+    margin:  0 auto;
+} */
+.name-pic-div{
+    display:flex;
+   flex-direction: row;
+    align-items:space-between;
+    
+    
+}
+.circlePic-div{
+    display: flex;
+   /*  border: 1px solid white; */
+    
+     
+}
