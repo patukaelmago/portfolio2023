@@ -12,8 +12,8 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className='subtitle text-accent'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            I offer a range of services to help businesses establish their online presence and enhance their brand identity. From designing visually appealing websites to developing robust web applications, crafting compelling brand messaging to managing social media accounts, 
+            I provide comprehensive solutions tailored to the unique needs of my clients.
           </p>
         </div>
         <div className='grid lg:grid-cols-4 gap-8'>

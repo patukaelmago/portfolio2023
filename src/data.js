@@ -137,8 +137,8 @@ export const projectsData = [
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Random Quote Machine',
+    category: 'freeCodeCamp',
   },
   {
     id: '5',
@@ -204,25 +204,25 @@ export const services = [
     icon: <FiLayout />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I specialize in creating custom web designs that are unique, engaging, and effective for your business or project. From planning to implementation, I work with you to understand your needs, goals, and vision for your website and turn it into a reality. I ensure that your website not only looks great, but is also easy to use, navigate, and convert visitors into leads. If you're ready to take your online presence to the next level, contact me to discuss your needs and how I can help you achieve your online goals."
   },
   {
     icon: <FiSettings />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "I offer custom web development services to meet your unique needs and ensure that your online presence is effective and attractive. From design to implementation and ongoing maintenance, I can help you build an attractive and functional website that is easy to navigate and tailored to your specific goals and needs. Whether you need an e-commerce website, a blogging platform, or a corporate website, I am here to help. Contact me today to get started on your custom website"      
   },
   {
     icon: <FiPenTool />,
     name: 'Branding',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I can help you create a unique and memorable brand that reflects the values and personality of your business or project. From logo design to brand strategy and implementation, I work with you to understand your business needs and goals and create a brand that speaks directly to your audience. My focus is on creating consistent and lasting brands that help you differentiate and create emotional connections with your customers. '
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: 'Community Managment',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "Turn your social media into a tool for business growth! As a Community Manager, I can help you develop and manage an effective social media strategy that reflects your brand's identity and values. From content creation to engaging with followers, I can ensure that your social media is active and attracting your target audience. With a focus on quality over quantity, I can work with you to develop an authentic and meaningful social presence that increases customer loyalty and improves your online reach. Don't miss the opportunity to improve your social media presence and increase your business success! Contact me today for more information on how I can help you achieve your online marketing goals."
   },
 ];
 
