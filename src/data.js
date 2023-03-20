@@ -143,7 +143,7 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'Speakify',
     category: 'web development',
   },
   {
