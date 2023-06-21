@@ -106,7 +106,7 @@ const Project = ({ item }) => {
         </div>
         
       )
-    default: return <h1></h1>
+    default: return <h1>hola</h1>
   }
 
 };
