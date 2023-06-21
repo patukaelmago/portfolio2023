@@ -90,7 +90,7 @@ const Project = ({ item }) => {
       )
       default:
       return (
-          <div key={item.id} className='flex flex-col items-center text-center'>
+          <div key={item.id} className='flex flex-col items-center text-center border border-sky-500'>
           <div className='mb-8'>
             <img className='rounded-2xl' src={item.image} alt='' />
           </div>
