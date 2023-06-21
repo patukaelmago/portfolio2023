@@ -22,7 +22,7 @@ const Hero = () => {
               </h1>
             </div>
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-            React Redux NodeJs ExpressJs PostgreSQL Sequelize JavaScript PHP Laravel HTML5 CSS Bootstrap Tailwind Bootstrap Firebase Git Github 
+            React Redux NodeJs ExpressJs PostgreSQL Sequelize JavaScript PHP Laravel HTML5 CSS Bootstrap Tailwind Bootstrap Firebase Figma Git Github  
             </p>
             <Link to="contact"
               activeClass='active'
