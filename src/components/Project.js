@@ -78,7 +78,7 @@ const Project = ({ item }) => {
           </div>
           <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
           <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-          <p className='text-base max-w-md'>Speakify is a text-to-speech application that converts any written text into a synthetic voice. The application is easy to use and allows users to input text, select a language and a voice, and then listen to the text being read aloud. Speakify is a useful tool for people with visual impairments, people with reading difficulties, or anyone who prefers to listen to the text instead of reading it. Additionally, the application also has a translation feature that allows users to translate the text into several different languages. In summary, Speakify is a practical and helpful application for anyone who needs a fast and easy-to-use text-to-speech tool.</p>
+          <p className='text-base max-w-md'>Speakify is a text-to-speech application that converts any written text into a synthetic voice. The application is easy to use and allows users to input text. Write something in the box and then listen to the text being read aloud. Speakify is a useful tool for people with visual impairments, people with reading difficulties, or anyone who prefers to listen to the text instead of reading it. In summary, Speakify is a practical and helpful application for anyone who needs a fast and easy-to-use text-to-speech tool.</p>
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' href="https://speakify.vercel.app/" target="blank" rel="noopener noreferrer">visit </a>
