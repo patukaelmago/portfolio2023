@@ -149,7 +149,7 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
+    name: 'Nashe Clicler',
     category: 'web development',
   },
 ];
