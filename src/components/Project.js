@@ -32,7 +32,7 @@ const Project = ({ item }) => {
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' href="https://dogs-front-five.vercel.app/" target="blank" rel="noopener noreferrer">visit </a>
             <a> / </a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/Pi-Dogs" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/DOGS---FRONT" target="blank" rel="noopener noreferrer"> code</a>
           </div>
         </div>
       );
