@@ -88,7 +88,7 @@ const Project = ({ item }) => {
         </div>
         
       )
-      case "Nashe Clicker":
+      default:
       return (
           <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
@@ -106,7 +106,7 @@ const Project = ({ item }) => {
         </div>
         
       )
-    default: return <h1>hola</h1>
+    
   }
 
 };
