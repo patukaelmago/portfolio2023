@@ -100,8 +100,9 @@ const Project = ({ item }) => {
     default:
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
+          <h3 className='text-2xl font-semibold capitalize mb-5'>{item.name}</h3>
           <div className='mb-8 border border-sky-500 rounded-2xl'>
-            <h3 className='text-2xl font-semibold capitalize mb-5'>{item.name}</h3>
+            
             <a title='visit project' href="https://contador-de-clics-xi.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
