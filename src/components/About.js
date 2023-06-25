@@ -10,14 +10,14 @@ const About = () => {
         <div className='flex flex-col xl:flex-row gap-24'>
           <div className='flex flex-col ' >
             <img
-              className='object-contain h-full w-full md:mx-auto lg:mx-0 rounded-2xl cursor-pointer'
+              className='object-contain h-full w-full md:mx-auto lg:mx-0 rounded-2xl cursor-pointer m-2'
               src={Image2}
               alt='diploma'
               onClick={() => window.open(Image2)}
             />
             <div >
               <img
-                className='object-contain h-full w-full md:mx-auto lg:mx-0 rounded-2xl cursor-pointer'
+                className='object-contain h-full w-full md:mx-auto lg:mx-0 cursor-pointer'
                 src={Image}
                 alt='code image'
                 onClick={() => window.open(Image)}
