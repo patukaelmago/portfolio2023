@@ -222,7 +222,7 @@ export const services = [
     icon: <FiTag />,
     name: 'Community Managment',
     description:
-      "Turn your social media into a tool for business growth! As a Community Manager, I can help you develop and manage an effective social media strategy that reflects your brand's identity and values. From content creation to engaging with followers, I can ensure that your social media is active and attracting your target audience. With a focus on quality over quantity, I can work with you to develop an authentic and meaningful social presence that increases customer loyalty and improves your online reach. Don't miss the opportunity to improve your social media presence and increase your business success! Contact me today for more information on how I can help you achieve your online marketing goals."
+      "Turn your social media into a tool for business growth! As a Community Manager, I can help you develop and manage an effective social media strategy that reflects your brand's identity and values. From content creation to engaging with followers, I can ensure that your social media is active and attracting your target audience. With a focus on quality over quantity, I can work with you to develop an authentic and meaningful social presence that increases customer loyalty and improves your online reach."
   },
 ];
 

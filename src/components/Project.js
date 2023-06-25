@@ -6,7 +6,7 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
-            <a href="https://world-dev-front.vercel.app/" target="blank" rel="noopener noreferrer">
+            <a title='visit project' href="https://world-dev-front.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `} />
             </a>
           </div>
@@ -24,7 +24,7 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
-            <a href="https://dogs-front-five.vercel.app/" target="blank" rel="noopener noreferrer">
+            <a title='visit project' href="https://dogs-front-five.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
@@ -42,7 +42,7 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
-            <a href="https://weather-app-ochre-tau.vercel.app" target="blank" rel="noopener noreferrer">
+            <a title='visit project' href="https://weather-app-ochre-tau.vercel.app" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
@@ -60,13 +60,13 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
-            <a href="https://random-qoute-machine-tawny.vercel.app/" target="blank" rel="noopener noreferrer">
+            <a title='visit project' href="https://random-qoute-machine-tawny.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
           <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
           <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-          <p className='text-base max-w-md'>Random Quote Machine is an innovative application that gives you the opportunity to access a wide variety of inspiring quotes from well-known people around the world. With just one click, you can generate a new random quote and share your favorite on Twitter in seconds. Additionally, the application features a dark mode that is not only sleek and modern but also helps reduce visual fatigue during long usage sessions. With Random Quote Machine, you will never run out of inspiration. Discover new ideas and wise words every time you open the application and find the motivation you need to move forward in your projects and personal goals!</p>
+          <p className='text-base max-w-md'>Random Quote Machine is an innovative application that gives you the opportunity to access a wide variety of inspiring quotes from well-known people around the world. With just one click, you can generate a new random quote and share your favorite on Twitter in seconds. Additionally, the application features a dark mode that is not only sleek and modern but also helps reduce visual fatigue during long usage sessions. With Random Quote Machine, you will never run out of inspiration.</p>
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
@@ -78,7 +78,7 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
-            <a href="https://speakify.vercel.app/" target="blank" rel="noopener noreferrer" >
+            <a title='visit project' href="https://speakify.vercel.app/" target="blank" rel="noopener noreferrer" >
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
@@ -96,13 +96,13 @@ const Project = ({ item }) => {
       return (
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8 border border-sky-500 rounded-2xl'>
-            <a href="https://contador-de-clics-xi.vercel.app/" target="blank" rel="noopener noreferrer">
+            <a title='visit project' href="https://contador-de-clics-xi.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
           <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
           <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-          <p className='text-base max-w-md'>alamarimachinmama.</p>
+          <p className='text-base max-w-md'>An exciting game app designed to challenge your ability to click continuously without interruption. In Nashe Clicker, your goal is to achieve the most consecutive clicks in a given time. In addition, it has a stopwatch that allows you to measure the time elapsed during your attempts. With Nashe Clicker, you will be able to test your skills in the art of clicking. How many clicks can you do in a given time? Will you be able to beat your own records and challenge your friends? Find out with Nashe Clicker!</p>
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
