@@ -43,6 +43,11 @@ const NavMobile = () => {
     },
   };
 
+  const closeNav = () => {
+  setIsOpen(false);
+};
+
+
   return (
     <nav className='relative'>
       <div
@@ -83,6 +88,7 @@ const NavMobile = () => {
                 duration={500}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
+                onClick={closeNav}
               >
                 {item.name}
               </Link>
