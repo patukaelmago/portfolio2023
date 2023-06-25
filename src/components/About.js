@@ -10,7 +10,7 @@ const About = () => {
         <div className='flex flex-col xl:flex-row gap-24'>
           <div className='flex flex-col ' >
             <img
-              className='object-contain h-full w-full md:mx-auto m-2 lg:mx-0 rounded-2xl cursor-pointer '
+              className='object-contain h-full m-2 w-full md:mx-auto  lg:mx-0 rounded-2xl cursor-pointer '
               src={Image2}
               alt='diploma'
               onClick={() => window.open(Image2)}
