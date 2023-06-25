@@ -8,16 +8,16 @@ const About = () => {
     <section className='section bg-secondary' id='about'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-24'>
-          <div className='flex flex-col ' >
+          <div className='flex flex-col items-center' >
             <img
-              className='object-contain h-full m-2 w-full md:mx-auto  lg:mx-0 rounded-2xl cursor-pointer '
+              className='object-contain h-full m-4 rounded-lg w-full md:mx-auto  lg:mx-0 cursor-pointer '
               src={Image2}
               alt='diploma'
               onClick={() => window.open(Image2)}
             />
             <div >
               <img
-                className='object-contain h-full w-full md:mx-auto lg:mx-0 cursor-pointer'
+                className='object-contain h-full w-full rounded-lg md:mx-auto lg:mx-0 cursor-pointer'
                 src={Image}
                 alt='code image'
                 onClick={() => window.open(Image)}
