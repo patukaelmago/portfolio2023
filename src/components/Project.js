@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLaptopCode } from 'react-icons/fa';
 
 const Project = ({ item }) => {
   switch (item.name) {
@@ -17,7 +18,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/WorldDev-Front" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/WorldDev-Front" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       );
@@ -36,7 +37,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/DOGS---FRONT" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/DOGS---FRONT" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       );
@@ -55,7 +56,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/weather-app" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/weather-app" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       )
@@ -74,7 +75,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/Random-Qoute-Machine" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/Random-Qoute-Machine" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       )
@@ -93,7 +94,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/speakify" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/speakify" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       )
@@ -113,7 +114,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             <a className='md:items-center pr-30 text-white hover:text-accent cursor-pointer' ></a>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/contador-de-clics" target="blank" rel="noopener noreferrer"> code</a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/contador-de-clics" target="blank" rel="noopener noreferrer"><i className='flex items-center'> code <FaLaptopCode className='ml-2' /> </i> </a>
           </div>
         </div>
       )
