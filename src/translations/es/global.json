@@ -1,0 +1,79 @@
+{
+     "about": {
+        "about":"Sobre mi:",
+        "description1":"En 2022 culminé 700 horas de estudios teórico-prácticos en",
+        "description2":"en Argentina.",
+        "description3":"Durante mi tiempo allí, adquirí experiencia en una variedad de tecnologías y librerias como: React, Redux, NodeJs, ExpressJs, PostgresSql, Sequelize, JavaScript, Html5, Css, Bootstrap, Tailwind, Git, Github, Figma y Firebase.",
+        "description4":"Como asistente de enseñanza en Henry Bootcamp, tuve la oportunidad de guiar a un grupo de 20 estudiantes. Esta experiencia me ayudó a desarrollar habilidades de liderazgo, tutoría y comunicación.",
+        "description5":"Mi nivel de inglés es B2 - Upper Intermediate, según certifica el certificado EF SET. Confío en mi capacidad para comunicarme de manera efectiva tanto en inglés hablado como escrito.",
+        "description6":"Además de mis habilidades técnicas, soy una persona empática y con actitud positiva. Estoy preparado para trabajar a tiempo completo y dedicar las horas necesarias para lograr objetivos individuales, grupales y comerciales. Tengo una verdadera pasión por la tecnología y la programación y siempre estoy ansioso por abordar problemas desafiantes y encontrar soluciones creativas.",
+        "contact":"Contáctame"
+    },
+
+     "contact":{
+        
+        "title": "Alguna pregunta?",
+        "subtitle":"Estoy aquí para ayudarte.",
+        "tellme":"Cuéntame sobre tu proyecto y creemos algo juntos.",
+        "thanks":"Gracias por la visita!",
+        "location":"Ubicación actual",
+        "city":"Mar Azul, Argentina",
+        "pd":"Dando servicios en todo el mundo",
+        "send":"Enviar mensaje",
+        "name":"Tu nombre",
+        "email":"Tu email",
+        "subject":"Asunto",
+        "message":"Tu mensaje",
+        "copyright":"Todos los derechos reservados."
+    },
+
+     "hero":{
+        "work":"Trabaja conmigo"
+    },
+
+     "nav": {
+        "home":"inicio",
+        "about":"sobre mi",
+        "portfolio":"portfolio",
+        "services":"servicios",
+        "contact":"contacto",
+        "href-home":"home",
+        "href-about":"about",
+        "href-portfolio":"portfolio",
+        "href-services":"services",
+        "href-contact":"contact"
+    },
+
+     "portfolio":{
+        "title":"Mis últimos trabajos",
+        "subtitle":"Puedes explorar los proyectos y ver su código."
+    },
+
+     "project":{
+        "atitle":"visita el projecto",
+        "code":"código",
+        "wd":"Proyecto grupal sobre servicios de hospedaje orientado a clientes que buscan relajación y buen ambiente de trabajo.",
+        "dogs":"Mi primer proyecto individual completo usando NodeJs es una aplicación de una API con información de razas de perros.",
+        "weather":"Weather App es un proyecto individual realizado con React y Bootstrap durante el curso de bootcamp.",
+        "rqm":"Random Quote Machine es una aplicación innovadora que le brinda la oportunidad de acceder a una amplia variedad de citas inspiradoras de personas conocidas de todo el mundo. Con solo un clic, puede generar una nueva cita aleatoria y compartir su favorita en Twitter en segundos. Además, la aplicación presenta un modo oscuro que no solo es elegante y moderno, sino que también ayuda a reducir la fatiga visual durante largas sesiones de uso. Con Random Quote Machine, nunca se quedará sin inspiración.",
+        "speakify":"Speakify es una aplicación que convierte cualquier texto escrito en una voz sintética. Permite a los usuarios ingresar texto y luego escucharlo  en voz alta. Speakify es una herramienta útil para personas con discapacidad visual, personas con dificultades de lectura o cualquier persona que prefiera escuchar el texto en lugar de leerlo. En resumen, es una aplicación práctica y útil para cualquiera que necesite una herramienta de conversión de texto a voz rápida y fácil de usar.",
+        "nashe":"Una emocionante aplicación de juego diseñada para desafiar tu habilidad de hacer clic continuamente sin interrupción. En Nashe Clicker, su objetivo es lograr la mayor cantidad de clics consecutivos en un tiempo determinado. Además, cuenta con un cronómetro que te permite medir el tiempo transcurrido durante tus intentos. Con Nashe Clicker, podrás poner a prueba tus habilidades en el arte de hacer clic. ¿Cuántos clics puedes hacer en un tiempo determinado?¡Descúbrelo con Nashe Clicker!"
+    },
+
+    "services":{
+        "services":"Qué hago para mis clientes",
+        "description":"Ofrezco una gama de servicios para ayudar a las empresas a establecer su presencia on-line y mejorar su identidad de marca. Desde el diseño de sitios web visualmente atractivos hasta el desarrollo de aplicaciones web sólidas, la creación de mensajes de marca convincentes y la gestión de cuentas de redes sociales, ofrezco soluciones integrales adaptadas a las necesidades únicas de mis clientes.",
+        "name1": "Web Design",
+        "name2": "Web Development",
+        "name3": "Branding",
+        "name4": "Community Managment",
+        "web-design":"Me especializo en la creación de diseños web personalizados, únicos, atractivos y efectivos para su negocio o proyecto. Desde la planificación hasta la implementación, trabajo con usted para comprender sus necesidades, objetivos y visión de su sitio web y convertirlo en una realidad. Me aseguro de que no solo se vea genial, sino que también sea fácil de usar, navegar y convertir a los visitantes en clientes potenciales. Si está listo para llevar su presencia en línea al siguiente nivel, contácteme",
+        "web-development":"Ofrezco servicios de desarrollo web personalizados para satisfacer sus necesidades únicas y garantizar que su presencia en línea sea efectiva y atractiva. Desde el diseño hasta la implementación y el mantenimiento continuo, puedo ayudarlo a crear un sitio web atractivo y funcional que sea fácil de navegar y que se adapte a sus objetivos y necesidades específicos. Ya sea que necesite un sitio web de comercio electrónico, una plataforma de blogs o un sitio web corporativo, estoy aquí para ayudarlo.",
+        "branding":"Puedo ayudarte a crear una marca única y memorable que refleje los valores y la personalidad de tu negocio o proyecto. Desde el diseño del logotipo hasta la estrategia e implementación de la marca, trabajo con usted para comprender las necesidades y objetivos de su negocio y crear una marca que hable directamente a su audiencia. Mi enfoque es crear marcas consistentes y duraderas que lo ayuden a diferenciarse y crear conexiones emocionales con sus clientes.",
+        "cm":"¡Convierte tus redes sociales en una herramienta para el crecimiento empresarial! Como Community Manager, puedo ayudarlo a desarrollar y administrar una estrategia efectiva de redes sociales que refleje la identidad y los valores de su marca. Con un enfoque en la calidad sobre la cantidad, puedo trabajar con usted para desarrollar una presencia social auténtica y significativa que aumente la lealtad del cliente y mejore su alcance en línea."
+    },
+
+    "projectsNav":{
+        "all":"todos"   
+    }
+}

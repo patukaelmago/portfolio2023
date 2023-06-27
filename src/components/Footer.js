@@ -2,11 +2,13 @@ import React from 'react';
 
 // import social data
 import { social } from '../data';
+import { useTranslation } from 'react-i18next';
 
 // import logo
 /* import Logo from '../assets/img/logo.svg'; */
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
   return (
     <footer className='bg-tertiary py-12'>
       <div className='container mx-auto'>
@@ -25,7 +27,7 @@ const Footer = () => {
             <p className="text-4xl font-signature bg secondary mr-4">Patricio Uskaer</p>
           </div>
           <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; 2023 Patricio Uskaer. All rights reserved.
+            &copy; {new Date().getFullYear()} Patricio Uskaer. {t('contact.copyright')}
           </p>
         </div>
       </div>

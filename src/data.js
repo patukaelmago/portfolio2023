@@ -12,6 +12,7 @@ import {
   FiMapPin,
 } from 'react-icons/fi';
 
+
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
@@ -153,7 +154,7 @@ export const projectsData = [
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: "all",
   },
   {
     name: 'Henry Bootcamp',

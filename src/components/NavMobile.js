@@ -16,7 +16,10 @@ import { motion } from 'framer-motion';
 // import Link
 import { Link } from 'react-scroll';
 
+import { useTranslation } from 'react-i18next';
+
 const NavMobile = () => {
+  const [t, i18n] = useTranslation("global");
   const [isOpen, setIsOpen] = useState(false);
 
   const circleVariants = {
@@ -79,22 +82,76 @@ const NavMobile = () => {
         >
           <XIcon className='w-8 h-8' />
         </div>
-        {navigation.map((item, idx) => {
-          return (
-            <li key={idx} className='mb-8'>
+        
+            <li className='mb-8'>
               <Link
-                to={item.href}
+                to={t('nav.href-home')}
                 smooth={true}
                 duration={500}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
                 onClick={closeNav}
               >
-                {item.name}
+                {t('nav.home')}
               </Link>
             </li>
-          );
-        })}
+
+            <li className='mb-8'>
+              <Link
+                to={t('nav.href-about')}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='text-xl cursor-pointer capitalize'
+                onClick={closeNav}
+              >
+                {t('nav.about')}
+              </Link>
+            </li>
+
+             <li className='mb-8'>
+              <Link
+                to={t('nav.href-portfolio')}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='text-xl cursor-pointer capitalize'
+                onClick={closeNav}
+              >
+                {t('nav.portfolio')}
+              </Link>
+            </li>
+
+            <li className='mb-8'>
+              <Link
+                to={t('nav.href-services')}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='text-xl cursor-pointer capitalize'
+                onClick={closeNav}
+              >
+                {t('nav.services')}
+              </Link>
+            </li>
+
+            <li className='mb-8'>
+              <Link
+                to={t('nav.href-contact')}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className='text-xl cursor-pointer capitalize'
+                onClick={closeNav}
+              >
+                {t('nav.contact')}
+              </Link>
+            </li>
+            <div className='flex'>
+            <button className='border rounded-md p-2' onClick={() => i18n.changeLanguage("es")}>ES</button>
+              <button className='border rounded-md p-2' onClick={() => i18n.changeLanguage("en")}>EN</button>
+              </div>
+        
         <Socials />
       </motion.ul>
     </nav>
