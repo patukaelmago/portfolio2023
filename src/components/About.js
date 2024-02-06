@@ -44,6 +44,9 @@ const About = () => {
                 {t('about.description4')}
                 <br />
                 <br />
+                {t('about.description7')} <a href="https://www.soyhenry.com/" target='_blank' className="text-blue-500"> Tribus</a>
+                <br />
+                <br />
                 {t('about.description5')}
                 <br />
                 <br />
