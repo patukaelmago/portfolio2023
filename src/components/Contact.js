@@ -59,7 +59,7 @@ const Contact = () => {
             
           </div>
           <form
-            action="https://getform.io/f/cb5eb6c1-aa94-4542-b5c1-c76401b2092f" method="POST"
+            action="https://getform.io/f/ab3913d0-eddf-4bdf-a99f-69bd3447a37c" method="POST"
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
