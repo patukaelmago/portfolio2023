@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import navigation data
-import { navigation } from '../data';
 
 // import Link
 import { Link } from 'react-scroll';
@@ -10,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Nav = () => {
    const [t, i18n] = useTranslation("global");
   return (
-    <nav>
+    <nav className='flex items-center'>
       <ul className='flex space-x-8 capitalize text-[15px]'>
         
             <li
@@ -94,8 +92,8 @@ const Nav = () => {
             </li>
 
       </ul>
-              <button className='border rounded-md p-2' onClick={() => i18n.changeLanguage("es")}>ES</button>
-              <button className='border rounded-md p-2' onClick={() => i18n.changeLanguage("en")}>EN</button>
+              <button className='border rounded-md p-1 ml-4' onClick={() => i18n.changeLanguage("es")}>ES</button>
+              <button className='border rounded-md p-1 ml-2' onClick={() => i18n.changeLanguage("en")}>EN</button>
     </nav>
   );
 };
