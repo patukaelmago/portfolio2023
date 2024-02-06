@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <section className='section bg-secondary' id='about'>
       <div className='container mx-auto'>
@@ -21,7 +21,7 @@ const About = () => {
               <img
                 className='object-contain h-full w-full rounded-lg md:mx-auto lg:mx-0 cursor-pointer'
                 src={Image}
-                alt='code image'
+                alt='code'
                 onClick={() => window.open(Image)}
               />
 
@@ -39,12 +39,12 @@ const About = () => {
               
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
-                {t('about.description1')} <a href="https://www.soyhenry.com/" target='_blank' className="text-blue-500"> Henry Bootcamp </a> {t('about.description2')} {t('about.description3')}   <br />
+                {t('about.description1')} <a href="https://www.soyhenry.com/" target='_blank' rel="noreferrer" className="text-blue-500"> Henry Bootcamp </a> {t('about.description2')} {t('about.description3')}   <br />
                 <br />
                 {t('about.description4')}
                 <br />
                 <br />
-                {t('about.description7')} <a href="https://www.soyhenry.com/" target='_blank' className="text-blue-500"> Tribus</a>
+                {t('about.description7')} <a href="https://www.soyhenry.com/" target='_blank' rel="noreferrer" className="text-blue-500"> Tribus</a>
                 <br />
                 <br />
                 {t('about.description5')}

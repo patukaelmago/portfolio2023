@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 /* import Logo from '../assets/img/logo.svg'; */
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <footer className='bg-tertiary py-12'>
       <div className='container mx-auto'>

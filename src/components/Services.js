@@ -1,12 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { FiLayout, FiSettings, FiPenToo, FiTag, FiPenTool } from 'react-icons/fi';
+import { FiLayout, FiSettings, FiTag, FiPenTool } from 'react-icons/fi';
 
-// import services data
-import { services } from '../data';
+
 
 const Services = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <section id='services' className='section bg-tertiary'>
       <div className='container mx-auto'>

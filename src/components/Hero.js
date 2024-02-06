@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     
     <section

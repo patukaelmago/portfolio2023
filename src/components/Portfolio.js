@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import Projects from './Projects';
 
 const Portfolio = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <section id='portfolio' className='section bg-primary min-h-[1400px]'>
       <div className='container mx-auto'>

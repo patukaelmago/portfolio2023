@@ -2,11 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import {FiMail, FiMapPin}from 'react-icons/fi';
 // import contact data
-import { contact } from '../data';
+
 
 
 const Contact = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <section className='section bg-primary' id='contact'>
       <div className='container mx-auto'>

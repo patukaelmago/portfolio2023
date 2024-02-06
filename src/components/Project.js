@@ -3,7 +3,7 @@ import { FaLaptopCode } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
 const Project = ({ item }) => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   switch (item.name) {
     case "World Developers":
       return (
