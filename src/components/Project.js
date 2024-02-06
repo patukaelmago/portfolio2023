@@ -29,7 +29,7 @@ const Project = ({ item }) => {
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
             <h3 className='text-2xl font-semibold capitalize mb-5'>{item.name}</h3>
-            <a title={t('project.atitle')} href="https://tribus.com.ar/" target="blank" rel="noopener noreferrer">
+            <a title={t('project.atitle')} href="https://dogs-front-5swdknvry-patukaelmago.vercel.app" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `}  />
             </a>
           </div>
