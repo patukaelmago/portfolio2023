@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Hero.css";
-import PatImg from '../assets/img/banner-patricio1.webp';
+// import PatImg from '../assets/img/banner-patricio1.webp';
 import { Link } from 'react-scroll';
 import { useTranslation } from 'react-i18next';
 
