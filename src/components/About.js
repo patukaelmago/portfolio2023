@@ -9,24 +9,8 @@ const About = () => {
   return (
     <section className='section bg-secondary' id='about'>
       <div className='container mx-auto'>
-        <div className='flex flex-col xl:flex-row gap-24'>
-          <div className='flex flex-col items-center' >
-            <img
-              className='object-contain h-full m-4 rounded-lg w-full md:mx-auto  lg:mx-0 cursor-pointer '
-              src={Image2}
-              alt='diploma'
-              onClick={() => window.open(Image2)}
-            />
-            <div >
-              <img
-                className='object-contain h-full w-full rounded-lg md:mx-auto lg:mx-0 cursor-pointer'
-                src={Image}
-                alt='code'
-                onClick={() => window.open(Image)}
-              />
-
-            </div>
-          </div>
+        <div className='flex flex-col xl:flex-row gap-12'>
+          
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
             <div className='flex flex-col'>
              
@@ -54,6 +38,23 @@ const About = () => {
                 <br className="my-4" />
               </p>
             </div>
+            <div className='flex flex-col items-center py-6 gap-4' >
+            <img
+              className='object-contain h-full m-4 rounded-lg w-full md:mx-auto lg:mx-0 cursor-pointer '
+              src={Image2}
+              alt='diploma'
+              onClick={() => window.open(Image2)}
+            />
+            
+              <img
+                className='object-contain h-full w-full rounded-lg md:mx-auto lg:mx-0 cursor-pointer'
+                src={Image}
+                alt='code'
+                onClick={() => window.open(Image)}
+              />
+
+          
+          </div>
             <Link to="contact"
               activeClass='active'
               spy={true}
