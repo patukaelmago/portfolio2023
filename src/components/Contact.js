@@ -8,7 +8,7 @@ import {FiMail, FiMapPin}from 'react-icons/fi';
 const Contact = () => {
   const [t] = useTranslation("global");
   return (
-    <section className='section bg-primary' id='contact'>
+    <section className='section bg-primary md:pt-24' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title '>

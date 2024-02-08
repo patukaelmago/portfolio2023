@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Nav = () => {
    const [t, i18n] = useTranslation("global");
   return (
-    <nav className='flex items-center'>
+    <nav className='flex items-center '>
       <ul className='flex space-x-8 capitalize text-[15px]'>
         
             <li

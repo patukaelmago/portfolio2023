@@ -7,7 +7,7 @@ import { FiLayout, FiSettings, FiTag, FiPenTool } from 'react-icons/fi';
 const Services = () => {
   const [t] = useTranslation("global");
   return (
-    <section id='services' className='section bg-tertiary'>
+    <section id='services' className='section bg-tertiary md:pt-24'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
           {/* <h2 className='section-title before:content-services relative before:absolute before:opacity-40 before:-top-[2rem] before:-left-28 before:hidden before:lg:block'>

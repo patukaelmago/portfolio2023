@@ -26,8 +26,8 @@ const Footer = () => {
           <div>
             <p className="text-4xl font-signature bg secondary mr-4">Patricio Uskaer</p>
           </div>
-          <p className='text-paragraph opacity-80 text-[15px]'>
-            &copy; {new Date().getFullYear()} Patricio Uskaer. {t('contact.copyright')}
+          <p className='text-paragraph opacity-80 text-[13px] text-center'>
+            &copy; {new Date().getFullYear()} Patricio Uskaer.  {t('contact.copyright')}
           </p>
         </div>
       </div>

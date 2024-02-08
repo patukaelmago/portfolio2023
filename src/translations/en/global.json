@@ -23,7 +23,8 @@
         "name":"Your name",
         "email":"Your email",
         "subject":"Subject",
-        "message":"Your message"
+        "message":"Your message",
+        "copyright":"All rights reserved."
     },
 
     "footer":{

@@ -7,11 +7,11 @@ import { useTranslation } from 'react-i18next';
 const About = () => {
   const [t] = useTranslation("global");
   return (
-    <section className='section bg-secondary' id='about'>
+    <section className='section bg-secondary md:py-24 md:pb-12' id='about'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-12'>
           
-          <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
+          <div className='flex flex-col items-center text-center'>
             <div className='flex flex-col'>
              
               <h2 className='text-5xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
@@ -38,22 +38,14 @@ const About = () => {
                 <br className="my-4" />
               </p>
             </div>
-            <div className='flex flex-col items-center py-6 gap-4' >
+            <div className='flex flex-col  items-center py-6 gap-4' >
             <img
-              className='object-contain h-full m-4 rounded-lg w-full md:mx-auto lg:mx-0 cursor-pointer '
+              className='object-contain rounded-lg md:mx-auto lg:mx-0 cursor-pointer w:75 '
               src={Image2}
               alt='diploma'
               onClick={() => window.open(Image2)}
             />
             
-              <img
-                className='object-contain h-full w-full rounded-lg md:mx-auto lg:mx-0 cursor-pointer'
-                src={Image}
-                alt='code'
-                onClick={() => window.open(Image)}
-              />
-
-          
           </div>
             <Link to="contact"
               activeClass='active'
@@ -62,7 +54,7 @@ const About = () => {
               duration={500}
               offset={-70}
               className='transition-all duration-300'>
-            <button className='btn btn-md bg-tertiary hover:text-black transition-all'>
+            <button className='btn btn-md bg-tertiary hover:text-black transition-all mt-12'>
               {t('about.contact')}
             </button>
             </Link>
