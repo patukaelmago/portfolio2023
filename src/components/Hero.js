@@ -15,17 +15,17 @@ const Hero = () => {
       
       <div className='container mx-auto h-full'>
         <div>
-              <img className='w-32 hidden rounded-full' src={PatImg} alt='' />
+              {/* <img className='w-32 hidden rounded-full' src={PatImg} alt='' /> */}
               </div>
         <div className='flex items-center h-full'>
           <div className='flex-1 flex flex-col items-center'>
             
-            <div className='name-pic-div mr-32 text-center'>
+            <div className='name-pic-div text-center'>
               <div className='circlePic-div md:mr-10'>
               {/* <img className='w-40 hidden md:flex-row  md:w-60 md:block rounded-full lg:items-center' src={PatImg} alt='' /> */}
               </div>
-              <h1 className='text-center ml-10 text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl font-bold md:tracking-[-2px]'>
-                <br /> Full Stack Developer
+              <h1 className='text-center text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl font-bold md:tracking-[-2px]'>
+                <br /> Full Stack <br />   Developer
               </h1>
               
             </div>
