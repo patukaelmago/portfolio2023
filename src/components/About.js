@@ -30,7 +30,7 @@ const About = () => {
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
             <div className='flex flex-col'>
              
-              <h2 className='text-5xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
+              <h2 className='text-5xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
                 {t('about.about')}
               </h2>
               <p className='mb-4 text-accent'>
@@ -44,14 +44,14 @@ const About = () => {
                 {t('about.description4')}
                 <br />
                 <br />
-                {t('about.description7')} <a href="https://www.soyhenry.com/" target='_blank' rel="noreferrer" className="text-blue-500"> Tribus</a>
+                {t('about.description7')} <a href="https://www.tribus.com.ar/" target='_blank' rel="noreferrer" className="text-blue-500"> Tribus</a>
                 <br />
                 <br />
                 {t('about.description5')}
                 <br />
                 <br />
                 {t('about.description6')}
-                <br class="my-4" />
+                <br className="my-4" />
               </p>
             </div>
             <Link to="contact"

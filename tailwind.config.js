@@ -37,7 +37,7 @@ module.exports = {
           hover:  '#1dabb8',/* '#925a2b','#000000' */
         },
         
-        paragraph: '#878e99',
+        paragraph: '#FCFFFE',
       },
     },
   },

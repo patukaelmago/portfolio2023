@@ -14,7 +14,7 @@ const Hero = () => {
     >
       
       <div className='container mx-auto h-full'>
-        <div className='mt-10 it'>
+        <div>
               <img className='w-32 hidden rounded-full' src={PatImg} alt='' />
               </div>
         <div className='flex items-center h-full'>
