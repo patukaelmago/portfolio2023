@@ -71,7 +71,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiFacebook />,
-    href: '',
+    href: 'https://www.facebook.com/profile.php?id=61556070044507',
   },
   {
     icon: <FiInstagram />,
