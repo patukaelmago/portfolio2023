@@ -36,7 +36,7 @@
      "nav": {
         "home":"inicio",
         "about":"sobre mi",
-        "portfolio":"portfolio",
+        "portfolio":"portafolio",
         "services":"servicios",
         "contact":"contacto",
         "href-home":"home",
@@ -58,7 +58,7 @@
         "dogs":"Mi primer proyecto individual completo usando NodeJs es una aplicación de una API con información de razas de perros.",
         "weather":"Weather App es un proyecto individual realizado con React y Bootstrap durante el curso de bootcamp.",
         "rqm":"Random Quote Machine es una aplicación innovadora que le brinda la oportunidad de acceder a una amplia variedad de citas inspiradoras de personas conocidas de todo el mundo. Con solo un clic, puede generar una nueva cita aleatoria y compartir su favorita en Twitter en segundos. Además, la aplicación presenta un modo oscuro que no solo es elegante y moderno, sino que también ayuda a reducir la fatiga visual durante largas sesiones de uso. Con Random Quote Machine, nunca se quedará sin inspiración.",
-        "speakify":"Speakify es una aplicación que convierte cualquier texto escrito en una voz sintética. Permite a los usuarios ingresar texto y luego escucharlo  en voz alta. Speakify es una herramienta útil para personas con discapacidad visual, personas con dificultades de lectura o cualquier persona que prefiera escuchar el texto en lugar de leerlo. En resumen, es una aplicación práctica y útil para cualquiera que necesite una herramienta de conversión de texto a voz rápida, fácil de usar y divertida.",
+        "speakify":"Speakify es una aplicación que convierte cualquier texto escrito en una voz sintética. Permite a los usuarios ingresar texto y luego escucharlo  en voz alta. Speakify es una herramienta útil para personas con discapacidad visual, personas con dificultades de lectura o cualquier persona que prefiera escuchar el texto en lugar de leerlo. En resumen, Speakify es una aplicación práctica y útil para cualquiera que necesite una herramienta de conversión de texto a voz rápida, fácil de usar y divertida.",
         "nashe":"Una emocionante aplicación de juego diseñada para desafiar tu habilidad de hacer clic continuamente sin interrupción. En Nashe Clicker, su objetivo es lograr la mayor cantidad de clics consecutivos en un tiempo determinado. Además, cuenta con un cronómetro que te permite medir el tiempo transcurrido durante tus intentos. Con Nashe Clicker, podrás poner a prueba tus habilidades en el arte de hacer clic. ¿Cuántos clics puedes hacer en un tiempo determinado?¡Descúbrelo con Nashe Clicker!"
     },
 
