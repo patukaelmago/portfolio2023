@@ -75,7 +75,7 @@ export const social = [
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/patriciouskaer/',
   },
   {
     icon: <FiGithub />,
