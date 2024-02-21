@@ -10,7 +10,7 @@ const Project = ({ item }) => {
         <div key={item.id} className='flex flex-col items-center text-center'>
           <div className='mb-8'>
             <h3 className='text-2xl font-semibold capitalize mb-5'>{item.name}</h3>
-            <a title={t('project.atitle')} href="https://world-dev-front.vercel.app/" target="blank" rel="noopener noreferrer">
+            <a title={t('project.atitle')} href="https://world-dev-front-delta.vercel.app/" target="blank" rel="noopener noreferrer">
               <img className='rounded-2xl' src={item.image} alt={`imagen de ${item.name} `} />
             </a>
           </div>
@@ -20,7 +20,7 @@ const Project = ({ item }) => {
           <br />
           <div>
             
-            <a className='text-white hover:text-accent cursor-pointer' href="https://world-dev-front-delta.vercel.app/" target="blank" rel="noopener noreferrer"><i className='flex items-center text-accent'> {t('project.code')} <FaLaptopCode className='ml-2' /> </i></a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/WorldDev-Front" target="blank" rel="noopener noreferrer"><i className='flex items-center text-accent'> {t('project.code')} <FaLaptopCode className='ml-2' /> </i></a>
           </div>
         </div>
       );
