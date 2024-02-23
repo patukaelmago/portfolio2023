@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 const Footer = () => {
   const [t] = useTranslation("global");
   return (
-    <footer className='bg-tertiary py-12'>
+    <footer className='bg-tertiary py-12 '>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row space-y-6 lg:space-y-0 items-center justify-between'>
           <div className='flex space-x-6 items-center justify-center'>
@@ -27,7 +27,7 @@ const Footer = () => {
             <p className="text-4xl font-signature bg secondary mr-4">Patricio Uskaer</p>
           </div>
           <p className='text-paragraph opacity-80 text-[13px] text-center'>
-            &copy; {new Date().getFullYear()} Patricio Uskaer.  {t('contact.copyright')}
+            &copy; {new Date().getFullYear()}.  {t('contact.copyright')}
           </p>
         </div>
       </div>

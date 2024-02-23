@@ -7,14 +7,14 @@ import { useTranslation } from 'react-i18next';
 const About = () => {
   const [t] = useTranslation("global");
   return (
-    <section className='section bg-secondary md:py-24 md:pb-12' id='about'>
+    <section className='section bg-secondary md:py-16 md:pb-12' id='about'>
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-12'>
           
           <div className='flex flex-col items-center text-center'>
             <div className='flex flex-col'>
              
-              <h2 className='text-5xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
+              <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 '>
                 {t('about.about')}
               </h2>
               <p className='mb-4 text-accent'>
