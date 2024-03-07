@@ -19,7 +19,7 @@ const Project = ({ item }) => {
           <br />
           
           <div>
-            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/WorldDev-Front" target="blank" rel="noopener noreferrer"><i className='flex items-center text-accent'> {t('project.code')} <FaLaptopCode className='ml-2' /> </i></a>
+            <a className='text-white hover:text-accent cursor-pointer' href="https://github.com/patukaelmago/WorldDevFront" target="blank" rel="noopener noreferrer"><i className='flex items-center text-accent'> {t('project.code')} <FaLaptopCode className='ml-2' /> </i></a>
           </div>
           {/* <p className=''>React/Redux/Node/Expreess/Sequelize-Postgres/Javascrript/Bootstrap/Firebase/Stripe/Cloudinary</p> */}
         </div>
